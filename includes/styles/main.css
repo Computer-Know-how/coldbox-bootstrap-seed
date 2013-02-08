@@ -1,0 +1,560 @@
+/*----------------------------------------------------------------------*/
+/* Theme
+/*----------------------------------------------------------------------*/
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------
+ Message Box
+ ------------------------------------------------------------------------------------------------------------------------------------------------------ */
+p.cbox_messagebox {
+	margin: 0;
+}
+
+.cbox_messagebox {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.cbox_messagebox_info, .cbox_messagebox_warning, .cbox_messagebox_error {
+	padding: 8px 35px 8px 14px;
+	margin-bottom: 18px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.cbox_messagebox_info {
+	background-color: #B8C69B;
+	border-color: #d6e9c6;
+	color: #468847;
+}a
+
+.cbox_messagebox_info a {
+	color: #468847;
+}
+
+.cbox_messagebox_info a:hover {
+	text-decoration: none;
+}
+
+.cbox_messagebox_warning {
+	background-color: #fcf8e3;
+	border-color: #fbeed5;
+	color: #c09853;
+}
+
+.cbox_messagebox_warning a {
+	color: #c09853;
+}
+
+.cbox_messagebox_warning a:hover {
+	text-decoration: none;
+}
+
+.cbox_messagebox_error {
+	background-color: #f2dede;
+	border-color: #eed3d7;
+	color: #b94a48;
+}
+
+.cbox_messagebox_error a {
+	color: #b94a48;
+}
+
+.cbox_messagebox_error a:hover {
+	text-decoration: none;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------
+sliders
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+.slider .ui-state-default,
+.slider .ui-widget-content .ui-state-default,
+.slider .ui-widget-header .ui-state-default {
+	background-color: #9ABB5A;
+	background-image: none;
+	border: none;
+	filter: none;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+	top: -.3em;
+	margin-left: -.5em;
+}
+
+.ui-slider .ui-slider-handle {
+	width: 1em;
+	height: 1.3em;
+	cursor: pointer;
+	outline: none;
+}
+
+.slider-hashes {
+	width: 100%;
+	position: relative;
+	height: 50px;
+}
+
+.slider-hashes div {
+	display: inline-block;
+	width: 15%;
+	text-align: center;
+	position: absolute;
+}
+
+.slider-hashes div:first-child {
+	left: 0;
+	text-align: left;
+}
+
+.slider-hashes div:last-child {
+	right: 0;
+	text-align: right;
+}
+
+.slider-hash-2 {
+	left: 17.5%;
+}
+
+.slider-hash-3 {
+	left: 42.5%;
+}
+
+.slider-hash-4 {
+	left: 67%;
+}
+
+.slider-hashes p {
+	margin: 3px 0;
+	padding: 0;
+	line-height: 1em;
+	color: #555;
+}
+
+.slider-hash-tick {
+	font-size: .3em;
+}
+
+.slider-hash-number {
+	font-size: .8em;
+}
+
+.slider-hash-label {
+	font-size: .8em;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------
+Twitter Bootstrap
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* update twitter bootstrap with the new icon location */
+[class^="icon-"],
+[class*=" icon-"] {
+	background-image:url("/includes/images/icons/glyphicons/glyphicons-halflings.png");
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------
+Form Fields
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+.control-group.error {
+	background:#f0cccc;
+	border-bottom-color:#f0cccc;
+	filter:none;
+}
+
+.control-group.error label.error {
+	display: inline-block;
+	font-weight: bold;
+
+}
+
+.control-group {
+	margin-bottom: 20px;
+}
+
+.control-group.error {
+	background: #fff3f2;
+	border-bottom-color: #fff3f2;
+	padding: 5px 10px;
+}
+
+.control-group.error label.error {
+	font-weight: normal;
+	font-style: italic;
+	margin-left: 5px;
+}
+
+input:focus:required:invalid:focus,
+textarea:focus:required:invalid:focus,
+select:focus:required:invalid:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+	border-color: #9abb5a;
+	-webkit-box-shadow: 0 0 6px #dbff94;
+	-moz-box-shadow: 0 0 6px #dbff94;
+	box-shadow: 0 0 6px #dbff94;
+}
+
+select:focus,
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+	outline: 1px auto #9abb5a;
+	-webkit-box-shadow: 0 0 6px #dbff94;
+	-moz-box-shadow: 0 0 6px #dbff94;
+	box-shadow: 0 0 6px #dbff94;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------
+Inherited Permissions
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+.inherited-permissions span[rel=tooltip] {
+	cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------
+Page Header (w/ Filter)
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+.page-header-with-filter {
+	overflow: hidden;
+}
+
+.page-header-with-filter h1 {
+	float: left;
+	display: inline-block;
+}
+
+.page-header-with-filter form {
+	float: right;
+	margin: 0;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------
+Form Group
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+.form-group {
+	position: relative;
+	margin: 15px 0;
+	padding: 14px 19px;
+	background-color: white;
+	border: 1px solid #BBB;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding-bottom: 19px;
+}
+
+.form-group-label {
+	position: relative;
+	top: -15px;
+	left: -20px;
+	padding: 5px 7px;
+	margin-bottom: 5px;
+	font-size: 12px;
+	border: 1px solid #BBB;
+	color: #333;
+	-webkit-border-radius: 4px 0 4px 0;
+	-moz-border-radius: 4px 0 4px 0;
+	border-radius: 4px 0 4px 0;
+	background-color: whiteSmoke;
+	display: inline-block;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------
+Alerts
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+.alert-info {
+	background-color: #eee;
+	border-color: #ccc;
+	color: #666;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------
+Form (Yes/No)
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+input[type="radio"] + label.yes {
+	margin-right: 20px;
+}
+
+input[type="radio"] + label.yes,
+input[type="radio"] + label.no {
+	margin-right: 20px;
+	display: inline-block;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------
+Control Groups
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+.control-group:last-child {
+	margin-bottom: 0;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------
+Lists
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+.inline-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.inline-list li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.pipe-me li {
+	border-left: #999 solid 1px;
+	margin-left: 5px;
+	padding-left: 5px;
+}
+
+.pipe-me li:first-child {
+	border-left: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------
+No Data
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+.no-data {
+	font-style: italic;
+	font-size: 1.2em;
+	display: inline-block;
+	margin: 20px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------
+Date Time Picker
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+.ui-datepicker {
+	padding: .5em .5em 0;
+	width: 205px;
+}
+
+.ui-datepicker .ui-datepicker-buttonpane {
+	display: none;
+}
+
+.ui-timepicker-div dl dd {
+	margin-bottom: 1em;
+}
+
+.ui-widget-header .ui-icon {
+	background-image: url("/includes/images/icons/glyphicons/glyphicons-halflings.png");
+}
+
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+	top: 14px;
+}
+
+.ui-widget-header .ui-icon-circle-triangle-e {
+	background-position: -456px -72px;
+}
+
+.ui-widget-header .ui-icon-circle-triangle-w {
+	background-position: -432px -72px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------
+WYSIWYG
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+.wysihtml5-sandbox {
+	margin: 0 !important;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------
+Media Queries
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {}
+
+@media only screen and (max-width: 767px) {
+	.page-header-with-filter h1,
+	.page-header-with-filter form {
+		float: none;
+	}
+
+	.page-header-with-filter form {
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+	.container-outer {
+		width: 744px;
+	}
+}
+
+@media only screen and (max-width: 979px) {
+	body {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+	}
+
+	.navbar-fixed-top {
+		margin-bottom: 0;
+	}
+
+	.nav-collapse .nav {
+		margin-top: 10px;
+	}
+
+	.nav-collapse .nav > li {
+		margin-top: 10px;
+	}
+
+	.nav-collapse .nav > li > a {
+		background-color: #EEE;
+	}
+
+	.nav-collapse .nav > li > a:hover {
+		color: #fff;
+	}
+
+	.nav-collapse .nav li.dropdown.open > .dropdown-toggle,
+	.nav-collapse .nav li.dropdown.active > .dropdown-toggle,
+	.nav-collapse .nav li.dropdown.open.active > .dropdown-toggle {
+		background-color: #999;
+		color: #fff;
+	}
+
+	.nav-collapse .nav > li .dropdown-menu li > a {
+		background-color: #fff;
+	}
+
+	.nav-collapse .nav > li .dropdown-menu li > a:hover {
+		color: #333;
+	}
+
+	.nav-collapse .dropdown-menu li a {
+		margin-bottom: 2px;
+	}
+}
+
+@media only screen and (min-width: 980px) {}
+
+@media only screen and (min-width: 980px) and (max-width: 1199px) {
+	.container-outer {
+		width: 960px;
+	}
+}
+
+@media only screen and (max-width:1159px) {
+	#dashboard .row {
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	#dashboard .row {
+		margin-bottom: 30px;
+	}
+
+	.container-outer {
+		width: 1190px;
+	}
+
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------
+Dev Toolbar
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+#dev_tools {
+	position: fixed;
+	z-index: 999;
+	bottom: 0;
+	right: 0;
+	background-color: #ddd;
+	padding: 10px;
+	width: 100%;
+	font-size: .9em;
+	text-align: right;
+}
+
+#dev_tools a {
+	color: red;
+}
+
+#dev_tools h4 {
+	margin-top: 0;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------
+Dev Toolbar - Media Queries
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+#screen_resolution {
+	display: inline-block;
+}
+
+#screen_resolution .screen_resolution_lt_480,
+#screen_resolution .screen_resolution_481_to_767,
+#screen_resolution .screen_resolution_768_to_979,
+#screen_resolution .screen_resolution_980_to_1199,
+#screen_resolution .screen_resolution_gt_1200 {
+	display: none;
+}
+
+@media only screen and (max-width:480px) {
+	#screen_resolution .screen_resolution_lt_480 {
+		display: inline-block;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+	#screen_resolution .screen_resolution_481_to_767 {
+		display: inline-block;
+	}
+}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+	#screen_resolution .screen_resolution_768_to_979 {
+		display: inline-block;
+	}
+}
+
+@media only screen and (min-width: 980px) {}
+
+@media only screen and (max-width:979px) {}
+
+@media only screen and (min-width: 980px) and (max-width: 1199px) {
+	#screen_resolution .screen_resolution_980_to_1199 {
+		display: inline-block;
+	}
+}
+
+@media only screen and (max-width:1159px) {}
+
+@media only screen and (min-width:1200px) {
+	#screen_resolution .screen_resolution_gt_1200 {
+		display: inline-block;
+	}
+}

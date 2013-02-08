@@ -1,0 +1,32 @@
+[
+    {
+        "securelist": "^users..*",
+        "roles": "",
+        "permissions": "USER_VIEW,USER_EDIT,USER_DELETE",
+        "whitelist": "",
+        "redirect": "security/login",
+        "order": "1",
+        "match": "event",
+        "useSSL": false
+    },
+    {
+        "securelist": "general.dashboard,^dashboard..*",
+        "roles": "",
+        "permissions": "MAIN_DASHBOARD",
+        "whitelist": "",
+        "redirect": "security/login",
+        "order": "2",
+        "match": "event",
+        "useSSL": false
+    },
+    {
+        "securelist": "..*",
+        "roles": "",
+        "permissions": "",
+        "whitelist": "^security\\.,^main\\.",
+        "redirect": "security/login",
+        "order": "3",
+        "match": "event",
+        "useSSL": false
+    }
+]

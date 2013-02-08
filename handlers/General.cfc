@@ -1,0 +1,1 @@
+﻿component extends="base" output="false" {	function index(event,rc,prc) {		event.setView("dashboard");	}}
